@@ -1,0 +1,21 @@
+html{
+    font-size: 20px;
+}
+body{
+    background-color: dimgray;
+}
+h1{
+    color: lightsteelblue;
+    font-size: 2rem;
+}
+h2{
+    color: lightsteelblue;
+    font-size: 1.7rem;
+}
+h3{
+    color: lightsteelblue;
+    font-size: 1.4rem;
+}
+p{
+    color: deepskyblue;
+}
