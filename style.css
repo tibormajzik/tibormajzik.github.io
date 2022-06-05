@@ -1,21 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono&family=Rock+Salt&display=swap');
 html{
     font-size: 20px;
 }
+
 body{
-    background-color: dimgray;
+    background: url(/images/pexels-photo-3722752.jpeg) center center no-repeat;
+    background-size: cover;    
 }
+
 h1{
-    color: lightsteelblue;
+    color: #F5FFC6;
     font-size: 2rem;
+    padding: 0.8rem;
+    font-family: 'Rock Salt', cursive;
+
 }
+
 h2{
-    color: lightsteelblue;
+    color: #F5FFC6;
     font-size: 1.7rem;
+    padding: 0.8rem;
+    font-family: 'Bebas Neue', cursive;
 }
+
 h3{
-    color: lightsteelblue;
+    color: #F5FFC6;
     font-size: 1.4rem;
+    padding: 0.5rem;
+    font-family: 'Bebas Neue', cursive;
 }
+
+nav{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 p{
-    color: deepskyblue;
+    color: #4B88A2;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
+}
+
+section{
+    color:lightsteelblue;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
+}
+
+li{
+    color: lightsteelblue;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
+}
+
+footer{
+    color: lightsteelblue;
+    font-family: 'Bebas Neue', cursive;
+    padding: 1.2rem;
+}
+
+a{
+    color: #DCD6F7;  
+    font-family: 'Roboto Mono', monospace;
+    padding: 2px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#logo{
+    border-radius: 50%;
+    
+}
+
+#logo:hover{
+    transition: 0.5s;
+    background-color: rgba(46, 158, 206, 0.8);
+    border-radius: 50%;
+}
+
+fieldset{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: none;
+}
+
+input{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#submit{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1.2rem;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background: url(/images/pexels-photo-3722752.jpeg) center center no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+    }
+    a{
+        margin: 0.1rem;
+    }
+    h1{
+        padding: 0.8rem;
+        font-size: 1.8rem;
+    }
+    h2{
+        padding: 0.8rem;
+        font-size: 1.4rem;
+    }
+   
+    li{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction:column;
+        
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    fieldset{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0.1rem;
+        border: none;
+    
+    }
+    input{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    textarea{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    [type="submit"]{
+        display: flex;
+        flex-direction: column;
+        text-align: center;   
+    }
+    #submit{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 1.2rem;
+    }
+    footer{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0.2rem;
+    }
 }
