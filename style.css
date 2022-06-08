@@ -4,7 +4,7 @@ html{
 }
 
 body{
-    background: url(https://github.com/tibormajzik/tibormajzik.github.io/blob/main/images/pexels-photo-3722752.jpeg) center center no-repeat;
+    background: url(/images/pexels-photo-3722752.jpeg) center center no-repeat;
     background-size: cover;    
 }
 
@@ -106,7 +106,7 @@ input, textarea{
 
 @media only screen and (max-width: 600px){
     body{
-        background: url(https://github.com/tibormajzik/tibormajzik.github.io/blob/main/images/pexels-photo-3722752.jpeg) center center no-repeat;
+        background: url(/images/pexels-photo-3722752.jpeg) center center no-repeat;
         background-size: cover;
         background-attachment: fixed;
     }
