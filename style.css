@@ -4,7 +4,7 @@ html{
 }
 
 body{
-    background: url(https://github.com/tibormajzik/tibormajzik.github.io/tree/main/images/pexels-photo-3722752.jpeg) center center no-repeat;
+    background: url(https://github.com/tibormajzik/tibormajzik.github.io/blob/main/images/pexels-photo-3722752.jpeg?raw=true) center center no-repeat;
     background-size: cover;    
 }
 
@@ -30,11 +30,12 @@ h3{
     font-family: 'Bebas Neue', cursive;
 }
 
-nav{
+.nav-flex{
     display: flex;
     width: 100vw;
     align-items: center;
     justify-content: space-evenly;
+    transition: 0.4s;
 }
 
 p{
@@ -80,9 +81,8 @@ a:hover{
 }
 
 #logo:hover{
-    transition: 0.5s;
+    transition: 1s;
     background-color: rgba(46, 158, 206, 0.8);
-    border-radius: 50%;
 }
 
 fieldset{
@@ -93,10 +93,8 @@ fieldset{
     border: none;
 }
 
-input{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-end;
+input, textarea{
+    display: flex;
 }
 
 #submit{
@@ -108,7 +106,7 @@ input{
 
 @media only screen and (max-width: 600px){
     body{
-        background: url(/images/pexels-photo-3722752.jpeg) center center no-repeat;
+        background: url(https://github.com/tibormajzik/tibormajzik.github.io/blob/main/images/pexels-photo-3722752.jpeg?raw=true) center center no-repeat;
         background-size: cover;
         background-attachment: fixed;
     }
@@ -152,12 +150,7 @@ input{
         border: none;
     
     }
-    input{
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-    }
-    textarea{
+    input,textarea{
         display: flex;
         justify-content: space-evenly;
     }
