@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono&family=Rock+Salt&display=swap');
+html{
+    font-size: 20px;
+}
+body{
+    background: url(https://raw.githubusercontent.com/tibormajzik/tibormajzik.github.io/main/pexels-photo-3722752.jpeg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+color: #F5FFC6;
+font-family: 'Rock Salt', cursive;
+padding: 0.8rem;
+font-size: 1.8rem;
+}
+
+h2{
+    color: #F5FFC6;
+    font-family: 'Bebas Neue', cursive;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+}
+
+h3{
+    color: #F5FFC6;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p{
+    color: #4B88A2;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
+}
+
+section{
+    color:lightsteelblue;
+    font-family: 'Roboto Mono', monospace;
+}    
+
+li{
+    color: lightsteelblue;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
+}
+
+a{
+    color: #DCD6F7;  
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    margin: 0.1rem;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    align-items: center;
+}
+
+#logo{
+    border-radius: 50%;
+    
+}
+
+#logo:hover{
+    transition: 1s;
+    background-color: rgba(46, 158, 206, 0.8);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{
+    display: flex;
+}
+
+fieldset{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0.1rem;
+    border: none;
+
+}
+
+[type="submit"]{
+    display: flex;
+    flex-direction: column;
+    text-align: center;   
+}
+
+#submit{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0.8rem;
+}
+
+@media only screen and (min-width: 576px){
+h1{
+    font-size: 1.9rem;
+}
+h2{
+    font-size: 1.6rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+nav{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+a{
+    justify-self: center;
+}
+}
+
+@media only screen and (min-width: 768px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.6rem;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap; 
+    }
+    form{
+        display: inline-block;
+    }
+}
