@@ -4,63 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
-    <title>Tibor Majzik</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Kökény Attila, Kavill</title>
 </head>
 <body>
-    <header class="header-flex">
-        <nav class="nav-flex">
-             <a href="#about">About</a>
-             <a href="#me">Why me?</a>
-             <a href="#skills">Skills</a>
-             <a href="#projects">Projects</a>
-             <a href="#clients-say">Clients say</a>
-             <a href="#contact">Contact</a>
-             <a href="https://github.com/tibormajzik"><img id="logo" src=https://raw.githubusercontent.com/tibormajzik/tibormajzik.github.io/3b66fe098ca45a7b728c9355bfaf4f94d530e2f2/291716_github_logo_social%20network_social_icon.png alt="github logo"></a>
-        </nav>
-    </header>
+    <header class="header-flex"> 
+    </header>           
+    <nav class="nav-flex">
+        <button class="button-flex">
+            <a href="#me">Rólam</a>
+        </button> 
+        <button class="button-flex"> 
+            <a href="#skills">Jártasságok</a>
+        </button>
+        <button class="button-flex"> 
+            <a href="#projects">Referenciák</a>
+        </button>
+        <button class="button-flex"> 
+            <a href="#clients-say">Vélemények</a>
+        </button >
+        <button class="button-flex"> 
+            <a href="#contact">Kapcsolat</a>
+        </button>
+        <a href="https://www.facebook.com/Kavill-106897448675396"><img id="logo" src=Facebook_logo_36x36.svg.png alt="facebook logo"></a>
+    </nav>
+    
     <main>
-    <h1>Tibor Majzik</h1>
-    <h2>Front-end developer from Hungary</h2>
+    <h1>Kökény Attila, Kavill</h1>
+    <h2>Villanyszerelő és elektronikai műszerész Szolnokról</h2>
    
-        <section class="section-flex">
-            <h3 id="about">About me:</h3>
-            <p>I'm a front-end developer from Hungary, with a passion to help you improve your business. 
-    Please feel free to move around on my page and explore everything on it.</p>
+        <section class="section-flex about-me">
+            <h3 id="me">Rólam</h3>
+            <p>Villanyszerelő és műszerész végzettséggel várom megkeresését, miben tudok segítségére lenni, az életét megkönnyíteni.
+                Legyen szó akár háztartási gépek bekötéséről vagy karbantásáról, akár a ház/lakás komplett újravezetékeléséről, rám számíthat. 
+                Udvarias és korrekt eljárást, ingyenes kiszállást és garanciát kínálok megfizethető áron már több éve, meglévő és leendő ügyfeleimnek. 
+                Amennyiben felkeltettem érdeklődését, kérem keressen bátran a megadott elérhetőségeim bármelyikén. </p>
         </section>
-   
-        <section class="section-flex">
-            <h3 id="me">Why me?</h3>
-            <p>This is a good question from the perspective of a future employer. 
-    But this time I would kindly ask you to let my portfolio projects do the talking and convince you.</p>
-        </section>
-        <section class="section-flex">
-                <h3 id="skills">Skills</h3>
+        <section class="section-flex skills">
+                <h3 id="skills">Jártasságok</h3>
                     <ul>
-                        <li>HTML5</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Python</li>
+                        <li>Villanyszerelés</li>
+                        <li>Elektronikai műszerész</li>
+                        <li>Fémipari munkák</li>
+                        <li>Lakossági és céges szolgáltatások</li>
                     </ul>
         </section>
-    <section class="section-flex">
-        <h3 id="projects">Projects</h3>
-        <p>Take a look around, some of my best and most memoriable projects.</p>
+    <section class="section-flex projects">
+        <h3 id="projects">Referenciák</h3>
+        <p class="project">Ezekkel a referenciamunkákkal szeretnék változatos mindennapjaimba egy kis betekintést engedni.</p>
     </section>
     
-    <section class="section-flex">
-        <h3 id="clients-say">My clients say</h3>
-        <p>These are the opinions of my clients about me.</p>
+    <section class="section-flex clients">
+        <h3 id="clients-say">Vélemények</h3>
+        <p class="client">Ezeket a véleményeket a már meglévő ügyfeleim, megrendelőim alkották az elkészült munkák fényében.</p>
     </section>
     
-    <section class="section-flex">
-        <h3 id="contact">Contact</h3>
-        <p>If you would like to stay in touch, please fill out this form.</p>
+    <section class="section-flex contact">
+        <h3 id="contact">Kapcsolat</h3>
+        <p>Amennyiben felkeltettem érdeklődését, ezen az űrlapon tud nekem üzenni, ajánlatot kérni.
+        Fontos, hogy mivel két egyforma munka nincs, így mindig egy alapos körülményfelmérés és ajánlattétel előzi meg a projekteket, ezeket az előbb említett dolgokat figyelembe véve. </p>
     </section>
     <form action="https://formspree.io/f/mdobbedn" method="post">
         <fieldset> 
             <section class="input">
-                <label> Name*
+                <label> Név*
                     <input type="text" 
                     id="név" 
                     name="name" 
@@ -80,7 +87,7 @@
                 
             </section>
             <section class="input">
-                <label>Company Name 
+                <label>Cégnév
                     <input type="text" 
                     id="cégnév" 
                     name="company-name">
@@ -88,7 +95,7 @@
                 
             </section>
             <section class="input">
-                <label>Tell me about your project 
+                <label>Projekt leírása
                     <textarea id="projektleírás" 
                     name="project-description">
                     </textarea>
@@ -96,27 +103,14 @@
                  
             </section>
             <section class="input">
-                <label>Message 
+                <label>Üzenet
                     <textarea id="üzenet" 
                     name="message">
                     </textarea>
                 </label>           
             </section>
         </fieldset>  
-        <fieldset>
-        <section>   
-            <label>How much do you like the page?
-            <select name="like">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-            </label>
-        </section> 
-    </fieldset>
-    <input type="submit" id="submit" value="Send">
+    <input type="submit" id="submit" value="Elküldöm">
     </form>
     <footer>Copyright &copy;</footer>
     </main>
