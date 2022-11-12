@@ -8,6 +8,7 @@ html{
     user-select: none;
 }
 
+/*MOBILE FIRST*/
 body{
     background: url(https://raw.githubusercontent.com/tibormajzik/tibormajzik.github.io/main/pexels-photo-3722752.jpeg) center center no-repeat;
     background-size: cover;
@@ -95,7 +96,31 @@ footer{
     margin: 0.2rem;
 }
 
-@media only screen and (min-width: 600px){
+/* 576px - 768px, TABLET MODE */
+@media only screen and (min-width: 576px){
+      
+    h1{
+        font-size: 1.9rem;
+    }
+    h2{
+        font-size: 1.6rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        background-size: 100vw 20rem;
+        
+    }
+    a{
+        justify-self: center;
+    }
+}
+
+/* >768px, dESKTOP MODE */
+@media only screen and (min-width: 768px){
     body{
         background: url(https://raw.githubusercontent.com/tibormajzik/tibormajzik.github.io/main/pexels-photo-3722752.jpeg) center center no-repeat;
         background-size: cover;    
@@ -103,19 +128,19 @@ footer{
     
     h1{
         padding: 0.8rem;
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
     
     h2{
         color: #F5FFC6;
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         padding: 0.8rem;
         font-family: 'Bebas Neue', cursive;
     }
     
     h3{
         color: #F5FFC6;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         padding: 0.5rem;
         font-family: 'Bebas Neue', cursive;
     }
