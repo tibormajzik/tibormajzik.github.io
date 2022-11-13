@@ -26,11 +26,12 @@ section{
     flex-direction: column;
 }
 
-nav{
+.nav-flex{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; 
     justify-content: center;
+    align-content: center;
 }
  a{
         color: #DCD6F7;  
@@ -108,12 +109,13 @@ footer{
     h3{
         font-size: 1.5rem;
     }
-    nav{
+    .nav-flex{
         display: grid;
         grid-template-columns: 33% 33% 33%;
         background-size: 100vw 20rem;
         
     }
+
     a{
         justify-self: center;
     }
@@ -147,12 +149,13 @@ footer{
     
     .nav-flex{
             display: flex;
-            flex-direction: row;
+            flex-direction:  row;
             justify-content: space-evenly;
             flex-wrap: wrap;
             height: 200px; 
             background-size: 100vw 300px;
         }
+        
     p{
         color: #4B88A2;
         font-family: 'Roboto Mono', monospace;
