@@ -221,4 +221,7 @@ footer{
         justify-content: flex-start;
         margin: 1.2rem;
     }
+    form{
+        display: inline-block;
+    }
 }    
