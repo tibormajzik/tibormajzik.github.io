@@ -57,6 +57,12 @@ h3{
     font-family: 'Bebas Neue', cursive;
 }
 
+p{
+    color: #4B88A2;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
+}
+
 li{
     display: flex;
     justify-content: space-evenly;
@@ -155,12 +161,6 @@ footer{
             height: 200px; 
             background-size: 100vw 300px;
         }
-        
-    p{
-        color: #4B88A2;
-        font-family: 'Roboto Mono', monospace;
-        margin: 10px;
-    }
     
     section{
         color:lightsteelblue;
